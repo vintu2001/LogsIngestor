@@ -14,8 +14,8 @@ import org.springframework.context.annotation.Configuration;
                         "and a simple interface for querying this data using full-text search or specific " +
                         "field filters.",
                 contact = @Contact(
-                        name = "Avishek Paul",
-                        email = "paulavishek1500@gmail.com"
+                        name = "Vineet Malewar",
+                        email = "malewar.vineet2001@gmail.com"
                 )
         ),
         servers = {

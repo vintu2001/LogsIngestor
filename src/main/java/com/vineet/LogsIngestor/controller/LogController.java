@@ -43,6 +43,7 @@ public class LogController {
                                                       @RequestBody @Valid FilterDto filter)
             throws ApiException {
         return new ResponseEntity<>(logsService.searchLogs(searchString, filter), HttpStatus.OK);
+
     }
 
 }
